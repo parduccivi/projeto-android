@@ -5,14 +5,14 @@
 
 @font-face {
     font-family: "droid";
-    src: url(fontes/idroid.otf) format('truetype');
+    src: url(/fontes/idroid.otf);
     font-style: normal;
 }
 
 :root {
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --fonte-titulo: 'droid';
-    --font-texto: 'Bebas Neue', sans-serif;    
+    --fonte-texto: 'Bebas Neue', sans-serif;  
 }
 
 * {
@@ -22,7 +22,7 @@
 
 body {
     background-color: #84E1AD;
-    font-family: var(--font-texto);
+    font-family: var(--fonte-padrao);
 }
  
 a.externo::after {
@@ -35,7 +35,7 @@ header {
     text-align: center;
     text-shadow: 2px 1px 2px black;
     padding: 10px;
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-titulo);
 }
 header > h1 {
     margin: 20px 5px 20px 5px;    
@@ -68,11 +68,16 @@ main {
     max-width: 1000px;
 }
 
+main a {
+    font-family: var(--fonte-titulo);
+}
+
 main p{
     margin: 12px 0px;
     text-indent: 20px;
     text-align: justify;
     line-height: 1.3em;
+    font-family: var(--fonte-texto);
  }
 
 main a {
