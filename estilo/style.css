@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Montserrat:wght@300&display=swap');
 
 @font-face {
-    font-family: "droid";
-    src: url(/fontes/idroid.otf);
+    font-family: 'droid';
+    src: url(fontes/idroid.otf);
     font-style: normal;
 }
 
@@ -69,7 +69,7 @@ main {
 }
 
 main a {
-    font-family: var(--fonte-titulo);
+    font-family: var(--fonte-texto);
 }
 
 main p{
