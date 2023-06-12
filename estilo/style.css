@@ -159,12 +159,12 @@ footer > a{
     color: #3ACF7C;
     font-size: 0.8em;
     padding: 5px;
-    margin: 10px 0px;
+    margin: 10px 1px;
 }
 footer a:hover {
     background-color: black;
     color: #21f10e;
     transition-duration: 0.6s;
-    margin: 5px 1px;
-    padding: 2px 5px;
+    padding: 5px;
+    margin: 10px 1px;
 }
